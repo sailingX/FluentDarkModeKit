@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        FluentDarkModeKit provides a mechanism to support dark mode for apps on iOS 11+ (including iOS 13).
                        DESC
-  s.homepage         = "https://github.com/microsoft/FluentDarkModeKit"
+  s.homepage         = "https://github.com/sailingX/FluentDarkModeKit"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = "Microsoft Corporation"
-  s.source           = { :git => "https://github.com/microsoft/FluentDarkModeKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sailingX/FluentDarkModeKit.git", :tag => s.version.to_s }
   s.platform         = :ios, '11.0'
   s.requires_arc     = true
   s.frameworks       = 'UIKit', 'Foundation'
